@@ -115,24 +115,62 @@
     color: var(--dark);
 }
 
-.carousel-item .img1{
-background-image: url(\imgcrs\1.jpg);
-width: 500px;
-height: 500px;
-    position: absolute;
+.carousel-item{
+    min-height: 500px;
+    max-height: 800px;
 }
-.carousel-item .img2{
-    background-image: url(\imgcrs\3.jpg);
-    width: 500px;
-    height: 500px;
-    position: absolute;
+div#header-carousel{
+    margin-top: 75px;
 }
-.carousel-item .img3{
-    background-image: url(\imgcrs\5.jpg);
-    width: 500px;
-    height: 500px;
-    position: absolute;
-}
+   
+    .carousel-item .img1{
+        background-image: url("https://jinnie.shop/css//imgcrs/2.jpg");
+        width: 100vw;
+        height: 500px;
+            position: relative;
+        }
+        .carousel-item .img2{
+            background-image: url("https://jinnie.shop/css//imgcrs/3.jpg");
+            width: 100vw;
+            height: 500px;
+            position: relative;
+        }
+        .carousel-item .img3{
+            background-image: url("https://jinnie.shop/css//imgcrs/5.jpg");
+            width: 100vw;
+            height: 500px;
+            position: relative;
+    }
+    @media (max-width: 768px) {
+        .carousel-item .img1{
+ background-image: url("https://jinnie.shop/css//imgcrs/1.jpg");
+ height: 100vw;
+ max-height: 800px;
+ background-size: 100%;
+           
+    
+
+        }
+        .carousel-item .img2{
+            background-image: url("https://jinnie.shop/css//imgcrs/4.jpg");
+           
+           
+            height: 100vw;
+            max-height: 800px;
+            background-size: 100%;
+
+        }
+        .carousel-item .img3{
+            background-image: url("https://jinnie.shop/css//imgcrs/6.jpg");
+           
+            height: 100vw;
+            max-height: 800px;
+            background-size: 100%;
+
+
+        }
+    }
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
