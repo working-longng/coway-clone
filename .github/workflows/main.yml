@@ -7,8 +7,4 @@ jobs:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@master
-    - name: copy file
-      uses: canastro/copy-file-action@master
-      with:
-        source: "coway-clone"
-        target: "coway-clone-web"
+    
