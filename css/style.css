@@ -115,6 +115,24 @@
     color: var(--dark);
 }
 
+.carousel-item .img1{
+background-image: url('\imgcrs\1.jpg');
+width: 500px;
+height: 500px;
+    position: absolute;
+}
+.carousel-item .img2{
+    background-image: url('\imgcrs\3.jpg');
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+.carousel-item .img3{
+    background-image: url('\imgcrs\5.jpg');
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
