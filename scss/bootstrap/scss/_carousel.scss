@@ -202,6 +202,7 @@
 
 .carousel-caption {
   position: absolute;
+  top: 100px;
   right: (100% - $carousel-caption-width) / 2;
   bottom: $carousel-caption-spacer;
   left: (100% - $carousel-caption-width) / 2;

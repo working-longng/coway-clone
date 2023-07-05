@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3CB815;
-    --secondary: #F65005;
+    --primary: #28a9e0;
+    --secondary: #3161ab;
     --light: #F7F8FC;
     --dark: #111111;
 }
@@ -149,7 +149,7 @@
 
 /*** Header ***/
 .carousel-caption {
-    top: 0;
+    top: 100px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -381,4 +381,28 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.btn-primary{
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover{
+    opacity: 0.8;
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary{
+    background: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.btn-secondary:hover{
+    opacity: 0.8;
+    background: var(--secondary);
+    border-color: var(--secondary);
+}
+
 }
