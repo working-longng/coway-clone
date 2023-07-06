@@ -330,7 +330,7 @@ body{
 .page-header {
     padding-top: 5rem;
     padding-bottom: 6rem;
-    /*background: url(../img/carousel-1.jpg) top right no-repeat;*/
+    background: url(../img/product-all/1.jpg) top right no-repeat;
     background-size: cover;
     background-attachment: scroll;
     background-size: cover;
@@ -339,7 +339,7 @@ body{
     -ms-animation: pulseBgSlow 40s linear infinite;
     -moz-animation: pulseBgSlow 40s linear infinite;
     animation: pulseBgSlow 40s linear infinite;
-    background: #F7F8FC !important;
+    
 }
 @media (max-width: 768px) {
     .page-header {
