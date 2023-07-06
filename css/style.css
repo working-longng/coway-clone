@@ -33,7 +33,7 @@
 }
 
 .bg-icon {
-    background: url(../img/bg-icon.png) center center repeat;
+    /*background: url(../img/bg-icon.png) center center repeat;*/
     background-size: contain;
 }
 
@@ -330,7 +330,7 @@ body{
 .page-header {
     padding-top: 5rem;
     padding-bottom: 6rem;
-    background: url(../img/product-all/1.jpg);
+    /*background: url(../img/carousel-1.jpg) top right no-repeat;*/
     background-size: cover;
     background-attachment: scroll;
     background-size: cover;
@@ -339,6 +339,7 @@ body{
     -ms-animation: pulseBgSlow 40s linear infinite;
     -moz-animation: pulseBgSlow 40s linear infinite;
     animation: pulseBgSlow 40s linear infinite;
+    background: #F7F8FC !important;
 }
 @media (max-width: 768px) {
     .page-header {
@@ -583,6 +584,31 @@ body{
 .nav-item .active{
     background: var(--primary) !important;
     border-color: var(--primary) !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+.cateProduct1, .cateProduct2, .cateProduct3{
+    cursor: pointer;
+}
+.cateProduct1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.cateProduct2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.cateProduct3:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.product-item a:hover{
+    color: var(--primary) !important;
 }
 
 
