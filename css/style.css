@@ -461,4 +461,22 @@ div#header-carousel{
     border-color: var(--secondary);
 }
 
+.btn-outline-primary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
 }
+
+.btn-outline-primary:hover{
+    opacity: 0.8;
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+}
+
+.nav-item .active{
+    background: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+
