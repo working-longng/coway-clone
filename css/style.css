@@ -33,7 +33,7 @@
 }
 
 .bg-icon {
-    background: url(../img/bg-icon.png) center center repeat;
+    /*background: url(../img/bg-icon.png) center center repeat;*/
     background-size: contain;
 }
 
@@ -255,8 +255,9 @@ div#header-carousel{
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    /*background: url(../img/carousel-1.jpg) top right no-repeat;*/
     background-size: cover;
+    background: #F7F8FC !important;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -485,6 +486,31 @@ div#header-carousel{
 .nav-item .active{
     background: var(--primary) !important;
     border-color: var(--primary) !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+.cateProduct1, .cateProduct2, .cateProduct3{
+    cursor: pointer;
+}
+.cateProduct1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.cateProduct2:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.cateProduct3:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.product-item a:hover{
+    color: var(--primary) !important;
 }
 
 
