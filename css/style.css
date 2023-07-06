@@ -251,14 +251,112 @@ div#header-carousel{
         object-fit: cover;
     }
 }
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+     font: 'Noto Sans','Helvetica Neue','Helvetica','Tahoma','Arial','Sans-serif' !important;
+};
+    
 
-.page-header {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
-    background-size: cover;
+
+@keyframes pulseBgSlow {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
+@keyframes pulseBgSlow {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-webkit-keyframes pulseBgSlow {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-ms-keyframes pulseBgSlow {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-moz-keyframes pulseBgSlow {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+.visual-sub{
+    display: flex;
+    justify-content: end;
+}
+.page-header {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background: url(../img/product-all/1.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: transparent;
+    -webkit-animation: pulseBgSlow 40s linear infinite;
+    -ms-animation: pulseBgSlow 40s linear infinite;
+    -moz-animation: pulseBgSlow 40s linear infinite;
+    animation: pulseBgSlow 40s linear infinite;
+}
+@media (max-width: 768px) {
+    .page-header {
+        background-size: cover;
+        background: url(../img/product-all/2.jpg);
+        background-repeat: no-repeat;
+        height: 100vw;
+        background-attachment: scroll;
+        background-size: cover;
+        background-color: transparent;
+        animation: pulseBgSlow 40s linear infinite;
+        -ms-animation: pulseBgSlow 40s linear infinite;
+        -moz-animation: pulseBgSlow 40s linear infinite;
+        -webkit-animation: pulseBgSlow 40s linear infinite;
+    }.visual-sub{
+        display: none;
+    }
+}
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
